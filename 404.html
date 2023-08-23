@@ -33,7 +33,6 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://web.guidorombola.com.ar/404.html" />
 
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="404 Page not found"/>
 <meta name="twitter:description" content=""/>
@@ -100,7 +99,7 @@
     }
 </style>
 
-<meta name="description" content=>
+<meta name="description" content=ZgotmplZ>
 
   <title>
 El sitio de Guido | Page not found
@@ -138,9 +137,7 @@ El sitio de Guido | Page not found
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.png" width="30" height="30"
-                    class="d-inline-block align-top">
-                Hugo Profile
+                
                 
             </a>
 
@@ -233,13 +230,8 @@ El sitio de Guido | Page not found
                         height="40px" width="40px">
                 </a>
             </div>
-            &copy; 2023  All Rights Reserved
             <div class="text-secondary">
                 Made with
-                <span class="text-danger">
-                    &#10084;
-                </span>
-                and
                 <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
                     title="Designed and developed by gurusabarish">
                     Hugo Profile
@@ -249,14 +241,10 @@ El sitio de Guido | Page not found
     </div>
 </div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
