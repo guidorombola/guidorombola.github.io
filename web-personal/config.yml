@@ -53,6 +53,7 @@ Menus:
     #   weight: 2
 
 params:
+  customCSS: true
   #title: "Hugo Profile"
   #description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
