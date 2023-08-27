@@ -3,6 +3,8 @@ languageCode: es-ar
 title: El sitio de Guido
 theme: hugo-profile
 
+taxonomies:
+
 outputs:
   home:
     - "HTML"
