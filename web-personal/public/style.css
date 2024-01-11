@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    min-height: 20vh;
+}
+
+#content {
+    min-height: 70vh;
+}
+
+#content > #hero {
+    min-height: 0;
+}
